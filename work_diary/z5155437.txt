@@ -1,0 +1,17 @@
+Zishuo Li z5155437@ad.unsw.edu.au
+
+Week1:
+
+    Join group in tutorial. Know what project we choose and assigned as scrum master.
+. Disscussion project front end with Ping Gao. 
+
+Week2:
+
+    Disscussion project with team members, assigned to develop front end. add all user 
+storys into Jira.
+
+    Done UI diagram.
+
+     Because proposal have changed, need change Jira user story.
+
+

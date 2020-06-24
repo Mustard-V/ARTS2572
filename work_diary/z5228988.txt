@@ -1,0 +1,30 @@
+Work Diary - Bofei Wang <bofei.wang@student.unsw.edu.au>
+
+Week 1
+- Group formed
+- Jira created
+- GitHub repo created
+- Team members met up in person and brain stormed
+- Together with the team, we wrote user stories
+- Roles (frontend, backend, scrum master) assigned to all team members
+
+Week 2
+- Finalised project proposal
+  - drew system architecture diagram
+  - finalised user stories and sprint plans
+- Wrote data scraper with Yichuan
+- Frontend/backend teams started working
+- Discussed database design
+- Finalised Atlassian account ownership settings
+
+Week 3
+- scraped category & ingredients data
+- refined database schema and imported scraped data into db
+- With Yichuan, we implemented several APIs
+  - get recipe details by recipe ID
+  - tag recipes
+  - add recipes
+  - add ingredients
+  - delete ingredients
+  - delete recipe
+  - upload recipe photo  

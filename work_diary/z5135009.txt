@@ -1,0 +1,12 @@
+Week 1
+Group formed. Together with my group member, I wrote the user story.  I also
+found and discussed with the team all available software tools and librarie
+that we can use for the project.
+
+Week 2
+Finished proposal and discussed the details of database and coded it
+
+week3
+write del ingredients, del recipe, tag recipe, modify add recipe, modify schema
+
+

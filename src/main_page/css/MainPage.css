@@ -1,0 +1,27 @@
+.navbar {
+    min-height: 6vh !important;
+}
+/*
+    the overall height is 100%vh
+    didn't work when sqeeze the window
+*/
+.sider {
+    min-height: 94vh;
+    /*background-color: #031529;*/
+}
+/* 
+    due to the flex box, the main body will have the same height as
+    the sider
+*/
+.main-body {
+    background-color: #dcdcdc;
+}
+
+.main-header {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.main-pignation {
+    margin: 20px auto;
+}

@@ -1,0 +1,9 @@
+
+week1
+decide system features, wtite user stories, back-end role
+
+week2
+finish sprints, draw interface graph, finish proposal
+
+week3
+write del ingredients, del recipe, tag recipe, modify add recipe, modify schema

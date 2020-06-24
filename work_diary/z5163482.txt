@@ -1,0 +1,23 @@
+Ping GAO
+
+Week 1
+- Group formed
+- Jira created
+- GitHub repo created
+- Meet up twice to discuss
+- Roles (frontend, backend, scrum master) assigned to all team members
+- Start working on user story and project proposal
+- Initialize project and push onto GitHub
+- Finalize sprint one planning 
+
+Week 2
+- group meet up and assigned task individually for sprint 1
+- start building ui for front page
+- discuss about some of the user story with group members
+- commit already done work to git repo
+
+week3
+- rebuild frontend with redux
+- add user setting page
+- add login page
+- configue basic routing
