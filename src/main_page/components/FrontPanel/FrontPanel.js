@@ -70,6 +70,7 @@ let image_mock = [
 const FrontPanel = (props) => {
     const result = [];
     let row = [];
+
     for (const [index, value] of image_mock.entries()) {
         row.push(
             <Col key={index}>
