@@ -20,6 +20,7 @@ import "./css/NavBar.css";
 const NavBar = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
+    const toggleLayout =() => alert(1)
 
     return (
         <Navbar color="light" light expand="md">
@@ -62,5 +63,6 @@ const NavBar = (props) => {
         </Navbar>
     );
 };
+
 
 export default NavBar;

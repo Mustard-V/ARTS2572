@@ -19,8 +19,7 @@ function App() {
                 <Route path="/settings">
                     <UserSettings />
                 </Route>
-                <Route path={`/recipe/:id`}>
-                    <Recipe />
+                <Route path={`/recipe/:id`} component={Recipe}>
                 </Route>
             </Switch>
         </Router>

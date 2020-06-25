@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css/MainPage.css";
 import SiderBar from "./components/Sider/SideBar.js";
 import { Container, Row, Col } from "reactstrap";
@@ -14,13 +14,19 @@ const MainPage = (props) => {
         (state) => state.blackList.allblackListItems
     );
     const allTags = useSelector((state) => state.tag.allTags);
+    const [sidebar, setSidebar] = useState(true);
+    const toggleLayout =() => {
+        setSidebar( !sidebar )
+    }
+
     return (
         <Container fluid>
             <Row>
-                <Col md="2" className="sider">
+                <Col md="2" className={sidebar ? "sidebar-show": "sidebar-hide"}>
                     <SiderBar />
                 </Col>
-                <Col md="10" className="main-body">
+                <Col md={sidebar ? 10: 12} className="main-body">
+                    <span className={sidebar ? 'sider-toggle sider-toggle-expand' : 'sider-toggle sider-toggle-collapse'} onClick={toggleLayout}></span>
                     <Header className="main-header" />
                     <div>
                         <p>main content</p>
