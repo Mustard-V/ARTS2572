@@ -6,7 +6,7 @@ import "../../css/SideBar.css";
 
 const SiderBar = (props) => {
     return (
-        <Container fluid>
+        <Container fluid className="side-wrap">
             <SiderBarTab />
         </Container>
     );

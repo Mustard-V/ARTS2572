@@ -67,10 +67,11 @@ let image_mock = [
     { image_file_name: "wuxrtu1483564410.jpg", meal_name: "Dal fry" },
 ];
 
+sessionStorage.setItem('images', JSON.stringify(image_mock))
+
 const FrontPanel = (props) => {
     const result = [];
     let row = [];
-
     for (const [index, value] of image_mock.entries()) {
         row.push(
             <Col key={index}>

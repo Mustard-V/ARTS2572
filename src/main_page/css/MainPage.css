@@ -25,3 +25,45 @@
 .main-pignation {
     margin: 20px auto;
 }
+
+.sidebar-show {
+
+}
+
+.sidebar-hide {
+    display: none;
+}
+.sider-toggle {
+    position: absolute;
+    top: calc(100vh / 2 - 60px);
+    left: 0;
+    width: 20px;
+    height: 60px;
+    z-index: 99;
+    background-color: #ffffff;
+    border-radius: 0 3px 3px 0;
+}
+
+.sider-toggle-expand:after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height:8px;
+    top: calc(50% - 4px);
+    left: 30%;
+    border: 1px solid #585858;
+    border-width: 1px 0 0 1px;
+    transform: rotate(-45deg);
+}
+
+.sider-toggle-collapse:after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height:8px;
+    top: calc(50% - 4px);
+    left: 20%;
+    border: 1px solid #585858;
+    border-width: 0 1px 1px 0;
+    transform: rotate(-45deg);
+}
